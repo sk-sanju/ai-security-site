@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Security System | Real-Time Face Recognition</title>
+    <meta name="description"
+        content="Advanced AI-powered security system with real-time face recognition, email alerts, and live monitoring.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i data-lucide="shield-check" class="neon-icon"></i>
+                <span>SECURE<span class="neon-text">AI</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#demo">Live Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">Next-Gen Protection</div>
+                <h1>AI Security System</h1>
+                <p class="subtitle">Real-Time Face Recognition for Smart Protection</p>
+                <div class="hero-btns">
+                    <a href="#demo" class="btn btn-primary">Get Started</a>
+                    <a href="#how-it-works" class="btn btn-secondary">View Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="scanner-container">
+                    <div class="scanner-ring"></div>
+                    <div class="face-overlay">
+                        <i data-lucide="user" size="120"></i>
+                        <div class="scan-line"></div>
+                        <div class="corner tl"></div>
+                        <div class="corner tr"></div>
+                        <div class="corner bl"></div>
+                        <div class="corner br"></div>
+                    </div>
+                    <div class="data-node node-1">AUTHORIZED</div>
+                    <div class="data-node node-2">98.4% MATCH</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Advanced Features</h2>
+                <p>Powerful AI capabilities for round-the-clock security.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i data-lucide="scan-face"></i>
+                    <h3>Real-time Face Detection</h3>
+                    <p>Detects and identifies faces instantly with high precision using OpenCV and DeepFace.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="bell-ring"></i>
+                    <h3>Intruder Alert System</h3>
+                    <p>Immediately triggers an internal alarm if an unauthorized person is detected.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="mail"></i>
+                    <h3>Email Notifications</h3>
+                    <p>Sends instant email alerts with captured images of unidentified individuals.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="volume-2"></i>
+                    <h3>Alarm Sound Trigger</h3>
+                    <p>Integrated Pygame audio module for loud audible deterrence.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="eye"></i>
+                    <h3>Continuous Monitoring</h3>
+                    <p>24/7 surveillance logic designed for stability and long-term uptime.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="cpu"></i>
+                    <h3>Powerful Tech Stack</h3>
+                    <p>Built with Python, OpenCV, and DeepFace for state-of-the-art performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple 4-step process to secure your premises.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h3>Capture Image</h3>
+                    <p>The system constantly captures frames from the webcam for monitoring.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h3>Face Comparison</h3>
+                    <p>Each face is analyzed and compared against the authorized database.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h3>Detect Unknowns</h3>
+                    <p>The system identifies if a person is "Unknown" or "Authorized" in real-time.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">04</div>
+                    <h3>Trigger Alert</h3>
+                    <p>If unknown, an alarm sounds and an email with proof is sent immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology Stack</h2>
+                <p>Built with industry-leading open-source technologies.</p>
+            </div>
+            <div class="tech-logos">
+                <div class="tech-item"><span class="tech-box">Python</span></div>
+                <div class="tech-item"><span class="tech-box">OpenCV</span></div>
+                <div class="tech-item"><span class="tech-box">DeepFace</span></div>
+                <div class="tech-item"><span class="tech-box">Pygame</span></div>
+                <div class="tech-item"><span class="tech-box">SMTP</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Live Monitoring Demo</h2>
+                <p>Experience how the interface looks during real-time operation.</p>
+            </div>
+            <div class="demo-wrapper">
+                <div class="camera-preview">
+                    <div class="demo-camera">
+                        <div class="demo-overlay">
+                            <div class="demo-status-box">
+                                <span class="status-label">STATUS:</span>
+                                <span id="demo-status" class="status-value authorized">AUTHORIZED</span>
+                            </div>
+                            <div class="demo-face-box"></div>
+                            <div class="demo-timestamp" id="demo-time">14:59:06</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
+                            alt="Authorized Sample" id="demo-img">
+                    </div>
+                </div>
+                <div class="demo-controls">
+                    <h3>System Controller</h3>
+                    <p>Toggle system states to see how the software reacts to different scenarios.</p>
+                    <div class="control-btns">
+                        <button id="btn-authorized" class="btn btn-primary active">Simulate Authorized</button>
+                        <button id="btn-unauthorized" class="btn btn-danger">Simulate Intruder</button>
+                    </div>
+                    <div class="log-panel">
+                        <div class="log-title">System Log</div>
+                        <div id="system-logs" class="logs">
+                            <div class="log-entry">[INFO] System initialized...</div>
+                            <div class="log-entry">[INFO] Camera connected...</div>
+                            <div class="log-entry">[SUCCESS] Model loaded.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>About Project</h2>
+                    <p>SecureAI is a smart surveillance project designed to bring enterprise-level security to homes and
+                        small offices. By leveraging advanced Deep Learning models, it minimizes false alarms and
+                        ensures that you are notified the moment an unfamiliar face enters your protected space.</p>
+                    <p>Designed for easy deployment, it integrates seamlessly with existing webcams and provides a
+                        customizable alert system via email and local audio.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-num">99%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">&lt; 1s</div>
+                        <div class="stat-label">Latency</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Have questions about the system? Get in touch.</p>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <i data-lucide="shield-check"></i>
+                    <span>SECUREAI</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/sk-sanju"><i data-lucide="github"></i></a>
+                    <a href="https://instagram.com/sksanjue"><i data-lucide="instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sanjay-s953925/"><i data-lucide="linkedin"></i></a>e
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Security System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
